@@ -1,0 +1,19 @@
+/* preferencias.css */
+
+/* /* Reglas personalizadas para esta sección si el diseño general no se ajusta */ */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Me aseguro de que los items se vean bien verticalmente */
+main ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+main ul li {
+    display: list-item;
+    margin-bottom: 10px;
+}

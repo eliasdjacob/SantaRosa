@@ -1,3 +1,6 @@
+/* global.css */
+
+/* Layouy general y cuerpo */
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
@@ -5,10 +8,12 @@ body {
     margin: 0;
 }
 
+/* Alineamiento del header*/
 header {
     text-align: center;
 }
 
+/* Barra de navigacion */
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,10 +22,12 @@ ul {
     background-color: #333;
 }
 
+/* Listado de items en nav */
 li {
     float: left;
 }
 
+/* Links dentro de nav */
 li a {
     display: block;
     color: white;
@@ -29,14 +36,17 @@ li a {
     text-decoration: none;
 }
 
+/* Effecto hover en links except activos */
 li a:hover:not(.active) {
     background-color: #111;
 }
 
+/* Highlight/resalte para links activos */
 .active {
     background-color: #92a4ff;
 }
 
+/* Estilo para el titulo principal*/
 h1 {
     background-color: black;
     padding: 10px;
@@ -44,51 +54,55 @@ h1 {
     color: #92a4ff;
 }
 
+/* Titulo secundario */
 h2 {
     font-size: 24px;
-    margin: 0;
+    margin: 20px 0 10px 0;
     padding: 0;
 }
 
-.container {
-    max-width: 100%;
+/* Container para el contenido */
+.container, main {
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Estilo del parrafo */
 p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.image {
-    float: right;
-    margin: 0 0 20px 20px;
-    max-width: 25%;
-    height: auto;
-}
-
-.image2 {
-    float: left;
-    margin: 0 20px 20px 0;
-    max-width: 25%;
-    height: auto;
-}
-
-.article {
-    float: left;
-    width: 70%;
-    background-color: #FFF;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #CCC;
-}
-
+/* Se crea el estilo del footer */
 .footer {
     background-color: #333;
     color: #FFF;
     padding: 10px;
     text-align: center;
     clear: both;
+}
+
+/* Estilos para imágenes en index.html */
+.image {
+    float: right;
+    margin: 0 0 15px 15px;
+    max-width: 25%;
+    height: auto;
+}
+
+.image2 {
+    float: left;
+    margin: 0 15px 15px 0;
+    max-width: 25%;
+    height: auto;
+}
+
+.image3 {
+    display: block;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin: 15px auto;
 }

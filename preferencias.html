@@ -1,161 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/mate.png" type="image/x-icon">
-    <title>Instituto Santa Rosa</title>
+  <meta charset="UTF-8" />
+  <title>Características - Instituto Santa Rosa</title>
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="preferencias.css" />
+  <style>
+    /* Me aseguro de que los items se vean uno por linea */
+    main ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
 
-    <style>
-        body {
-            font-family: "Lucida Console", "Courier New", monospace;
-            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
-            padding: 0;
-            margin: 0;
-        }
-
-        .container{
-            display: flex;
-            justify-content: center;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-
-        .active {
-            background-color: #92a4ff;
-        }
-
-        h1 {
-            background-color: black;
-            padding: 10px;
-            margin: 0;
-            color: #92a4ff;
-        }
-
-        table {
-            border-collapse: collapse;
-            border: 2px solid rgb(200, 200, 200);
-            letter-spacing: 1px;
-            font-size: 1.5rem;
-            background-color: #FFF;
-        }
-
-        td {
-            border: 1px solid rgb(190, 190, 190);
-            padding: 10px 20px;
-        }
-
-        th {
-            border: 1px solid rgb(190, 190, 190);
-            padding: 10px 20px;
-            background-color: rgb(162, 162, 162);
-        }
-
-        .footer {
-            background-color: #333;
-            color: #FFF;
-            padding: 10px;
-            text-align: center;
-            clear: both;
-        }
-    </style>
-
+    main ul li {
+      display: list-item;
+      margin-bottom: 8px;
+    }
+  </style>
 </head>
-
 <body>
+  <header>
+    <h1>Instituto Santa Rosa</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="preferencias.html">Características</a></li>
+        <li><a href="audiovisuales.html">Audiovisuales</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <h1>Instituto Santa Rosa</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="preferencias.html">Características</a></li>
-                <li><a href="audiovisuales.html">Audiovisuales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+    <h2>Inspirados por la excelencia y la innovación</h2>
     
-    <h2>Características del instituto</h2>
-    <h3>
+    <p>En el Instituto Superior Santa Rosa, nos dedicamos a brindar una formación de calidad que combina excelencia académica con una visión innovadora del futuro profesional. Nuestro compromiso es formar personas preparadas para enfrentar los desafíos del mundo laboral y fomentar el desarrollo personal en un entorno dinámico y colaborativo.</p>
     
-    <div>
-        <table>
-            <colgroup>
-                <col>
-                <col>
-                <col>
-                <col>
-                <col>
-            </colgroup>
-            <colgroup>
-                <col>
-                <col>
-                <col>
-            </colgroup>
-                <th></th>
-                <th>Presencial:</th>
-                <th>A distancia:</th>
-            </tr>
-            <tr>
-                <td>Horarios</td>
-                <td>Durante la mañana</td>
-                <td>Durante la noche</td>
-            </tr>
-            <tr>
-                <td>Modalidad</td>
-                <td>Sincrónica</td>
-                <td>Sincrónica y asincrónica</td>
-            </tr>
-            <tr>
-                <td>Profesores</td>
-                <td>El mismo cuerpo docente</td>
-                <td>Ambos educan en ambas modalidades</td>
-            </tr>
-            <tr>
-                <td>Tipo de clases</td>
-                <td>Solamente presenciales</td>
-                <td>Online en vivo y asincrónicas</td>
-            </tr>
-            <tr>
-                <td>Carreras</td>
-                <td>Tecnicatura en turismo</td>
-                <td>Tecnicatura en desarrollo web</td>
-        </tr>
-        </table>
-    </div>
+    <p>Actualmente, ofrecemos una variedad de tecnicaturas que responden a las demandas del mercado y al contexto regional:</p>
+    
+    <ul>
+      <li>Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales</li>
+      <li>Tecnicatura Superior en Turismo y Hotelería</li>
+      <li>Tecnicatura Superior en Guía de Trekking y Guía de Montaña</li>
+    </ul>
 
-    <footer>
-      <p>Derechos reservados &copy;2025</p>
-    </footer>
-   
+    <p>Además, desde el área de Formación Profesional, dictamos un prestigioso Curso de Cocina, ampliamente reconocido en todo el Valle de Calamuchita. Esta propuesta está orientada tanto a quienes buscan insertarse rápidamente en el ámbito gastronómico como a quienes desean perfeccionar sus habilidades culinarias.</p>
+    
+    <p>Si estás interesado en alguna de nuestras carreras o cursos, en nuestra página web encontrarás toda la información necesaria para conocer los requisitos de inscripción, duración de las carreras, modalidad de cursado y mucho más.</p>
+    
+    <p>También podrás contactar directamente con nuestro equipo, quienes estarán disponibles para ayudarte y responder a todas tus consultas. Estamos aquí para acompañarte en tu camino de formación y crecimiento profesional.</p>
+  </main>
+
+  <footer class="footer">
+    <p>Derechos reservados &copy; 2025</p>
+  </footer>
 </body>
-
 </html>
