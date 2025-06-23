@@ -1,0 +1,13 @@
+/* index.css */
+/* Estilos específicos para la página principal - index.html */
+
+.subtitulo {
+  margin: 15px;
+  padding: 0;
+}
+
+.tituloInterno {
+  font-size: 24px;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
